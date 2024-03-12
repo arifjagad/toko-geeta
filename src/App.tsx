@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Router from "./components/Route";
+
+import { Game } from "./type";
+
+const gamesData: Game[] = require('./data/game.json');
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div >
+			<Navbar />
+            <main className="lg:mx-36 mx-12 my-12">
+                <Router games={gamesData as Game[]} />
+			</main>
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
