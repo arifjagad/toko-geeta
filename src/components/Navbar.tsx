@@ -4,8 +4,8 @@ import { Navbar } from "flowbite-react";
 
 function Navbars() {
     return (
-        <div className="bg-slate-950 lg:px-36 px-12">
-            <Navbar fluid className="bg-slate-950 py-6">
+        <div className="bg-indigo-950 lg:px-36 px-12">
+            <Navbar fluid className="bg-indigo-950 py-6">
                 <Navbar.Brand as={NavLink} to="/">
                     <span className="self-center whitespace-nowrap text-3xl font-semibold text-white">
                         Toko Geeta

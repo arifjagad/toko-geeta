@@ -1,6 +1,7 @@
 [
     {
         "name": "Mobile Legends",
+        "picture": "mobile-legends.jpg",
         "packages": [
             {
                 "type": "Instant Package",
@@ -359,6 +360,7 @@
         ]
     }, {
         "name": "Free Fire",
+        "picture": "free-fire.jpg",
         "packages": [
             {
                 "type": "Items",
