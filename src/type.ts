@@ -1,6 +1,7 @@
 // types.ts
 export interface Game {
     name: string;
+    picture: string;
     packages: {
         type: string;
         options: {
