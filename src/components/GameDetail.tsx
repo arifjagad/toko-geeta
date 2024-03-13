@@ -44,7 +44,7 @@ const GameDetail: React.FC<Props> = ({ games }) => {
 
         // Periksa apakah selectedOption sudah dipilih
         if (Object.values(formData).some(value => value === '') || selectedOption === '') {
-            toast.error('Silakan lengkapi semua field sebelum mengirim.');
+            toast.error('Silakan lengkapi semua field sebelum memesan.');
             return;
         }
 
@@ -57,8 +57,11 @@ const GameDetail: React.FC<Props> = ({ games }) => {
         }
     
         // Tambahkan data nameOption dan price yang dipilih
-        whatsappMessage += `\nPaket yang dipilih: ${selectedOption}\n`;
-    
+        whatsappMessage += `\nPaket yang dipilih:\n`;
+        whatsappMessage += `${game?.packages.find(packageType =>
+            packageType.options.find(option => option.nameOption === selectedOption)
+        )?.type}: ${selectedOption}\n`;
+
         const selectedPackage = game?.packages.find(packageType =>
             packageType.options.find(option => option.nameOption === selectedOption)
         );
@@ -83,12 +86,13 @@ const GameDetail: React.FC<Props> = ({ games }) => {
     return (
         <>
             <ToastContainer />
+
             <div
                 className='bg-cover bg-center h-64 w-full brightness-50'
                 style={{ backgroundImage: `url('/images/${game.pictureBanner}')` }}
             ></div>
 
-            <div className="h-40 lg:mx-36 mx-12 -mt-28 flex items-center">
+            <div className="h-40 xl:mx-36 sm:mx-8 mx-6 -mt-28 flex items-center">
                 <div
                     className="h-full w-40 overflow-hidden rounded-lg border border-gray-200">
                     <img
@@ -96,16 +100,16 @@ const GameDetail: React.FC<Props> = ({ games }) => {
                         className="block h-full w-full scale-100 object-cover object-center drop-shadow-xl"
                         alt=""/>
                 </div>
-                <div className="text-white text-3xl font-bold flex-grow z-10 ml-2 -mt-2">
+                <div className="text-white text-3xl font-bold flex-grow z-10 ml-2 sm:-mt-2 -mt-10">
                     {game.name}
                 </div>
             </div>
 
-            <div className="lg:mx-36 mx-12 my-12">
-                <div className="grid grid-cols-7 gap-8 h-full">
-                    <div className="col-span-2">
+            <div className="xl:mx-36 sm:mx-8 mx-6 my-12">
+                <div className="grid grid-cols-7 sm:gap-8 gap-4 h-full">
+                    <div className="lg:col-span-2 col-span-7">
                         <div className="sticky top-28">
-                            <div className="bg-blue-700 p-12 text-white rounded-lg">
+                            <div className="bg-blue-700 sm:px-12 sm:py-8 px-10 py-6 text-white rounded-lg">
                                 <h4 className="text-xl font-bold mb-4">Panduan Topup!</h4>
                                 <ol className="list-decimal">
                                     {game.guide.map((guideList) => (
@@ -115,14 +119,14 @@ const GameDetail: React.FC<Props> = ({ games }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-5">
-                        <div className="mb-6">
-                            <div className="bg-blue-700 px-12 py-4 text-white font-bold rounded-t-lg">
+                    <div className="lg:col-span-5 col-span-7">
+                        <div className="">
+                            <div className="bg-blue-700 sm:px-12 px-10 py-4 text-white font-bold rounded-t-lg">
                                 Masukkan User ID
                             </div>
-                            <div className="bg-blue-950 px-12 py-8 rounded-b-lg">
+                            <div className="bg-blue-950 sm:px-12 px-10 py-8 rounded-b-lg">
                                 <form onSubmit={handleSubmit}>
-                                    <div className="flex flex-row gap-4">
+                                    <div className="flex md:flex-row flex-col gap-4">
                                         {game.topupSystem.map((topupSystemList) => (
                                             <input
                                                 key={topupSystemList}
@@ -134,25 +138,32 @@ const GameDetail: React.FC<Props> = ({ games }) => {
                                             />
                                         ))}
                                     </div>
-                                    <p className="text-xs mt-4 text-white">
+                                    <p className="text-xs mt-4 text-white text-justify">
                                         {game.topupDesc}
                                     </p>
-                                    <Button type="submit" className="bg-green-500 mt-4 w-full hover:bg-red-200">
-                                        Pesan Sekarang <FaWhatsapp className="ml-2 h-5 w-5"/> 
-                                    </Button>
+                                    <div className="sm:block min-[425px]:hidden">
+                                        <Button type="submit" className="bg-green-500 mt-4 w-full hover:bg-red-200">
+                                            Pesan Sekarang <FaWhatsapp className="ml-2 h-5 w-5"/> 
+                                        </Button>
+                                    </div>
+                                    <div className="fixed bottom-0 left-0 z-50 w-full sm:hidden">
+                                        <Button type="submit" className="bg-green-500 mt-4 w-full hover:bg-red-200 rounded-t-lg rounded-b-none">
+                                            Pesan Sekarang <FaWhatsapp className="ml-2 h-5 w-5"/> 
+                                        </Button>
+                                    </div>
                                 </form>
                             </div>
                         </div>
-                        <div className="mt-6">
-                            <div className="bg-blue-700 text-white font-bold rounded-t-lg px-12 py-4">
+                        <div className="sm:mt-6 mt-4">
+                            <div className="bg-blue-700 text-white font-bold rounded-t-lg sm:px-12 px-10 py-4">
                                 Pilih Paket Anda
                             </div>
-                            <div className="bg-blue-950 px-12 py-8 rounded-b-lg">
+                            <div className="bg-blue-950 sm:px-12 px-10 py-8 rounded-b-lg">
                                 {/* Price List */}
                                 {game.packages.map((packageType) => (
                                     <div key={packageType.type}>
-                                        <h2 className="text-white font-bold py-2">{packageType.type}</h2>
-                                        <div className="grid grid-cols-4 gap-4 text-white">
+                                        <h2 className="text-white font-bold">{packageType.type}</h2>
+                                        <div className="grid xl:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-4 text-white mb-6">
                                             {packageType.options.map((option) => (
                                                 <div key={option.id} className="my-2">
                                                     <input
@@ -180,6 +191,9 @@ const GameDetail: React.FC<Props> = ({ games }) => {
                     </div>
                 </div>
             </div>
+
+            
+            
         </>
     );
 };

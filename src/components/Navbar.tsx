@@ -4,7 +4,7 @@ import { Navbar } from "flowbite-react";
 
 function Navbars() {
     return (
-        <div className="sticky top-0 z-50 bg-blue-950 lg:px-36 px-12">
+        <div className="sticky top-0 z-50 bg-blue-950 xl:px-36 sm:px-8 px-6">
             <Navbar fluid className="bg-blue-950 py-6">
                 <Navbar.Brand as={NavLink} to="/">
                     <span className="self-center whitespace-nowrap text-3xl font-semibold text-white">

@@ -8,12 +8,12 @@ interface Props {
 
 const ListGame: React.FC<Props> = ({ games }) => {
     if (!Array.isArray(games) || games.length === 0) {
-        return <div className="py-12">No games available</div>;
+        return <div className="sm:my-8 my-4">No games available</div>;
     }
 
     return (
-        <div className="py-12 ">
-            <div className="grid xl:grid-cols-5 lg:grid-cols-3 sm:grid-cols-3 xs:grid-cols-1 gap-4">
+        <div className="sm:my-8 my-4">
+            <div className="grid xl:grid-cols-5 lg:grid-cols-4 sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
                 {games.map((game) => (
                     <>
                         <Link to={`/topup/${game.name.split(` `).join(`-`).toLowerCase()}`}
@@ -33,7 +33,7 @@ const ListGame: React.FC<Props> = ({ games }) => {
                                     </div>
                                     <div
                                         className="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
-                                        <h1 className="font-serif text-xl font-bold text-white shadow-xl">{game.name}</h1>
+                                        <h1 className="sm:text-xl text-md font-bold text-white shadow-xl">{game.name}</h1>
                                     </div>
                                 </div>
                             </div>
