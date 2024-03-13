@@ -11,7 +11,7 @@ function App() {
     return (
         <div >
 			<Navbar />
-            <main className="lg:mx-36 mx-12 my-12">
+            <main>
                 <Router games={gamesData as Game[]} />
 			</main>
             <Footer />

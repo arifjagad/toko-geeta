@@ -2,9 +2,17 @@
     {
         "name": "Mobile Legends",
         "picture": "mobile-legends.jpg",
+        "pictureBanner": "banner-mobile-legends-3.jpg",
+        "guide": [
+            "Masukkan ID Mobile Legends Anda.",
+            "Pilih jumlah diamonds yang Anda inginkan.",
+            "Klik tombol beli dan pilih metode pembayaran yang Anda inginkan.",
+            "Setelah pembayaran berhasil, Diamonds akan langsung masuk ke akun Mobile Legends Anda."
+        ],
         "packages": [
             {
                 "type": "Instant Package",
+                "iconCurrency": "icon-currency-mobile-legends.png",
                 "options": [
                     {
                         "nameOption": "3 Diamonds",
@@ -361,6 +369,7 @@
     }, {
         "name": "Free Fire",
         "picture": "free-fire.jpg",
+        "pictureBanner": "banner-mobile-legends.jpg",
         "packages": [
             {
                 "type": "Items",
@@ -403,6 +412,56 @@
                     }, {
                         "nameOption": "73.100 Diamonds",
                         "price": 9508519
+                    }
+                ]
+            }
+        ]
+    }, {
+        "name": "Genshin Impact",
+        "picture": "genshin-impact.jpg",
+        "pictureBanner": "banner-mobile-legends.jpg",
+        "packages": [
+            {
+                "type": "Items",
+                "options": [
+                    {
+                        "nameOption": "Blessing Of The Welking Moon (x1)",
+                        "price": 59409
+                    }, {
+                        "nameOption": "Blessing Of The Welking Moon (x2)",
+                        "price": 118817
+                    }, {
+                        "nameOption": "Blessing Of The Welking Moon (x3)",
+                        "price": 178226
+                    }, {
+                        "nameOption": "Blessing Of The Welking Moon (x4)",
+                        "price": 237633
+                    }, {
+                        "nameOption": "Blessing Of The Welking Moon (x5)",
+                        "price": 294267
+                    }
+                ]
+            }, {
+                "type": "Genesis Cyrstals",
+                "options": [
+                    {
+                        "nameOption": "60 Genesis Cyrstals",
+                        "price": 11666
+                    }, {
+                        "nameOption": "300 + 30 Genesis Cyrstals",
+                        "price": 59409
+                    }, {
+                        "nameOption": "980 + 110 Genesis Cyrstals",
+                        "price": 177075
+                    }, {
+                        "nameOption": "1980 + 260 Genesis Cyrstals",
+                        "price": 383980
+                    }, {
+                        "nameOption": "3280 + 600 Genesis Cyrstals",
+                        "price": 585310
+                    }, {
+                        "nameOption": "6480 + 1600 Genesis Cyrstals",
+                        "price": 1170873
                     }
                 ]
             }
