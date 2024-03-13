@@ -3,11 +3,16 @@
         "name": "Mobile Legends",
         "picture": "mobile-legends.jpg",
         "pictureBanner": "banner-mobile-legends-3.jpg",
+        "topupSystem": [
+            "User ID",
+            "Zone ID"
+        ],
+        "topupDesc": "Untuk mengetahui User ID Anda, silakan klik menu profile dibagian kiri atas pada menu utama game. User ID akan terlihat dibagian bawah Nama Karakter Game Anda. Silakan masukkan User ID Anda untuk menyelesaikan transaksi. Contoh : 12345678(1234).",
         "guide": [
             "Masukkan ID Mobile Legends Anda.",
             "Pilih jumlah diamonds yang Anda inginkan.",
-            "Klik tombol beli dan pilih metode pembayaran yang Anda inginkan.",
-            "Setelah pembayaran berhasil, Diamonds akan langsung masuk ke akun Mobile Legends Anda."
+            "Klik tombol beli dan Anda akan diarahkan ke Whatsapp.",
+            "Selanjutnya Anda akan menyelesaikan transaksinya melalui admin Whatsapp."
         ],
         "packages": [
             {
@@ -370,6 +375,16 @@
         "name": "Free Fire",
         "picture": "free-fire.jpg",
         "pictureBanner": "banner-mobile-legends.jpg",
+        "topupSystem": [
+            "Player ID"
+        ],
+        "topupDesc": "Untuk menemukan ID Anda, klik pada ikon karakter. User ID tercantum di bawah nama karakter Anda. Contoh: '5363266446'.",
+        "guide": [
+            "Masukkan ID Player Free Fire Anda.",
+            "Pilih jumlah diamonds yang Anda inginkan.",
+            "Klik tombol beli dan Anda akan diarahkan ke Whatsapp.",
+            "Selanjutnya Anda akan menyelesaikan transaksinya melalui admin Whatsapp."
+        ],
         "packages": [
             {
                 "type": "Items",
@@ -420,6 +435,17 @@
         "name": "Genshin Impact",
         "picture": "genshin-impact.jpg",
         "pictureBanner": "banner-mobile-legends.jpg",
+        "topupSystem": [
+            "UID",
+            "Server"
+        ],
+        "topupDesc": "Untuk menemukan UID Anda, masuk pakai akun Anda. Klik pada tombol profile di pojok kiri atas layar. Temukan UID dibawah avatar. Masukan UID Anda di sini. Selain itu, Anda juga dapat temukan UID Anda di pojok bawah kanan layar.",
+        "guide": [
+            "Masukkan UID Genshin Impact Anda.",
+            "Pilih jumlah diamonds yang Anda inginkan.",
+            "Klik tombol beli dan Anda akan diarahkan ke Whatsapp.",
+            "Selanjutnya Anda akan menyelesaikan transaksinya melalui admin Whatsapp."
+        ],
         "packages": [
             {
                 "type": "Items",
