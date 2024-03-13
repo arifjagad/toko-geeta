@@ -7,7 +7,7 @@ import { Game } from "../type";
 const Home: React.FC<{ games: Game[] }> = ({ games }) => {
     
     return (
-        <div className="lg:mx-36 mx-12 my-12">
+        <div className="xl:mx-36 sm:mx-8 mx-6 sm:my-12 my-4">
             <Slider/>
             <ListGame games={games} />
         </div>
