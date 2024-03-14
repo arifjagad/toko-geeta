@@ -10,7 +10,7 @@
         "topupDesc": "Untuk mengetahui User ID Anda, silakan klik menu profile dibagian kiri atas pada menu utama game. User ID akan terlihat dibagian bawah Nama Karakter Game Anda. Silakan masukkan User ID Anda untuk menyelesaikan transaksi. Contoh : 12345678(1234).",
         "guide": [
             "Masukkan ID Mobile Legends Anda.",
-            "Pilih jumlah diamonds yang Anda inginkan.",
+            "Pilih paket yang Anda inginkan.",
             "Klik tombol beli dan Anda akan diarahkan ke Whatsapp.",
             "Selanjutnya Anda akan menyelesaikan transaksinya melalui admin Whatsapp."
         ],
@@ -381,7 +381,7 @@
         "topupDesc": "Untuk menemukan ID Anda, klik pada ikon karakter. User ID tercantum di bawah nama karakter Anda. Contoh: '5363266446'.",
         "guide": [
             "Masukkan ID Player Free Fire Anda.",
-            "Pilih jumlah diamonds yang Anda inginkan.",
+            "Pilih paket yang Anda inginkan.",
             "Klik tombol beli dan Anda akan diarahkan ke Whatsapp.",
             "Selanjutnya Anda akan menyelesaikan transaksinya melalui admin Whatsapp."
         ],
@@ -442,7 +442,7 @@
         "topupDesc": "Untuk menemukan UID Anda, masuk pakai akun Anda. Klik pada tombol profile di pojok kiri atas layar. Temukan UID dibawah avatar. Masukan UID Anda di sini. Selain itu, Anda juga dapat temukan UID Anda di pojok bawah kanan layar.",
         "guide": [
             "Masukkan UID Genshin Impact Anda.",
-            "Pilih jumlah diamonds yang Anda inginkan.",
+            "Pilih paket yang Anda inginkan.",
             "Klik tombol beli dan Anda akan diarahkan ke Whatsapp.",
             "Selanjutnya Anda akan menyelesaikan transaksinya melalui admin Whatsapp."
         ],
@@ -451,43 +451,541 @@
                 "type": "Items",
                 "options": [
                     {
-                        "nameOption": "Blessing Of The Welking Moon (x1)",
+                        "nameOption": "Express Supply Pass (x1)",
                         "price": 59409
                     }, {
-                        "nameOption": "Blessing Of The Welking Moon (x2)",
+                        "nameOption": "Express Supply Pass (x2)",
                         "price": 118817
                     }, {
-                        "nameOption": "Blessing Of The Welking Moon (x3)",
+                        "nameOption": "Express Supply Pass (x3)",
                         "price": 178226
                     }, {
-                        "nameOption": "Blessing Of The Welking Moon (x4)",
+                        "nameOption": "Express Supply Pass (x4)",
                         "price": 237633
                     }, {
-                        "nameOption": "Blessing Of The Welking Moon (x5)",
+                        "nameOption": "Express Supply Pass (x5)",
                         "price": 294267
                     }
                 ]
             }, {
-                "type": "Genesis Cyrstals",
+                "type": "Genesis Crystals",
                 "options": [
                     {
-                        "nameOption": "60 Genesis Cyrstals",
+                        "nameOption": "60 Genesis Crystals",
                         "price": 11666
                     }, {
-                        "nameOption": "300 + 30 Genesis Cyrstals",
+                        "nameOption": "300 + 30 Genesis Crystals",
                         "price": 59409
                     }, {
-                        "nameOption": "980 + 110 Genesis Cyrstals",
+                        "nameOption": "980 + 110 Genesis Crystals",
                         "price": 177075
                     }, {
-                        "nameOption": "1980 + 260 Genesis Cyrstals",
+                        "nameOption": "1980 + 260 Genesis Crystals",
                         "price": 383980
                     }, {
-                        "nameOption": "3280 + 600 Genesis Cyrstals",
+                        "nameOption": "3280 + 600 Genesis Crystals",
                         "price": 585310
                     }, {
-                        "nameOption": "6480 + 1600 Genesis Cyrstals",
+                        "nameOption": "6480 + 1600 Genesis Crystals",
                         "price": 1170873
+                    }
+                ]
+            }
+        ]
+    }, {
+        "name": "Valorant",
+        "picture": "genshin-impact.jpg",
+        "pictureBanner": "banner-mobile-legends.jpg",
+        "topupSystem": [
+            "Riot ID"
+        ],
+        "topupDesc": "Untuk menemukan Riot ID Anda, buka halaman profil akun dan salin Riot ID+Tag menggunakan tombol yang tersedia disamping Riot ID. (Contoh: Westbourne#SEA)",
+        "guide": [
+            "Masukkan Riot ID Anda.",
+            "Pilih paket yang Anda inginkan.",
+            "Klik tombol beli dan Anda akan diarahkan ke Whatsapp.",
+            "Selanjutnya Anda akan menyelesaikan transaksinya melalui admin Whatsapp."
+        ],
+        "packages": [
+            {
+                "type": "Valorant Points",
+                "options": [
+                    {
+                        "nameOption": "125 VP",
+                        "price": "14506"
+                    },
+                    {
+                        "nameOption": "250 VP",
+                        "price": "29010"
+                    },
+                    {
+                        "nameOption": "375 VP",
+                        "price": "43513"
+                    },
+                    {
+                        "nameOption": "420 VP",
+                        "price": "48349"
+                    },
+                    {
+                        "nameOption": "545 VP",
+                        "price": "62854"
+                    },
+                    {
+                        "nameOption": "700 VP",
+                        "price": "77357"
+                    },
+                    {
+                        "nameOption": "825 VP",
+                        "price": "91861"
+                    },
+                    {
+                        "nameOption": "1120 VP",
+                        "price": "125705"
+                    },
+                    {
+                        "nameOption": "1375 VP",
+                        "price": "145044"
+                    },
+                    {
+                        "nameOption": "1625 VP",
+                        "price": "174053"
+                    },
+                    {
+                        "nameOption": "1795 VP",
+                        "price": "193392"
+                    },
+                    {
+                        "nameOption": "2075 VP",
+                        "price": "222402"
+                    },
+                    {
+                        "nameOption": "2400 VP",
+                        "price": "241740"
+                    },
+                    {
+                        "nameOption": "2820 VP",
+                        "price": "290088"
+                    },
+                    {
+                        "nameOption": "3100 VP",
+                        "price": "316057"
+                    },
+                    {
+                        "nameOption": "4000 VP",
+                        "price": "383100"
+                    },
+                    {
+                        "nameOption": "4800 VP",
+                        "price": "478874"
+                    },
+                    {
+                        "nameOption": "5375 VP",
+                        "price": "526761"
+                    },
+                    {
+                        "nameOption": "5795 VP",
+                        "price": "574649"
+                    },
+                    {
+                        "nameOption": "6400 VP",
+                        "price": "622536"
+                    },
+                    {
+                        "nameOption": "8150 VP",
+                        "price": "766198"
+                    },
+                    {
+                        "nameOption": "9525 VP",
+                        "price": "909861"
+                    },
+                    {
+                        "nameOption": "10550 VP",
+                        "price": "1005635"
+                    },
+                    {
+                        "nameOption": "12150 VP",
+                        "price": "1149298"
+                    },
+                    {
+                        "nameOption": "16300 VP",
+                        "price": "1532396"
+                    }
+                ]
+            }
+        ]
+    }, {
+        "name": "Honkai Star Rail",
+        "picture": "genshin-impact.jpg",
+        "pictureBanner": "banner-mobile-legends.jpg",
+        "topupSystem": [
+            "UID",
+            "Server"
+        ],
+        "topupDesc": "Untuk menemukan UID Anda, masuk ke akun di aplikasi Anda. UID selalu berada di pojok kiri bawah layar. UID juga dapat ditemukan di Phone Menu.",
+        "guide": [
+            "Masukkan UID Honkai Star Rail Anda.",
+            "Pilih paket yang Anda inginkan.",
+            "Klik tombol beli dan Anda akan diarahkan ke Whatsapp.",
+            "Selanjutnya Anda akan menyelesaikan transaksinya melalui admin Whatsapp."
+        ],
+        "packages": [
+            {
+                "type": "Items",
+                "options": [
+                    {
+                        "nameOption": "Express Supply Pass (x1)",
+                        "price": 60065
+                    }, {
+                        "nameOption": "Express Supply Pass (x2)",
+                        "price": 120129
+                    }, {
+                        "nameOption": "Express Supply Pass (x3)",
+                        "price": 180195
+                    }, {
+                        "nameOption": "Express Supply Pass (x4)",
+                        "price": 240260
+                    }, {
+                        "nameOption": "Express Supply Pass (x5)",
+                        "price": 300325
+                    }
+                ]
+            }, {
+                "type": "Oneiric Shard",
+                "options": [
+                    {
+                        "nameOption": "60 Oneiric Shard",
+                        "price": 14523
+                    }, {
+                        "nameOption": "300 + 30 Oneiric Shard",
+                        "price": 58950
+                    }, {
+                        "nameOption": "980 + 110 Oneiric Shard",
+                        "price": 177462
+                    }, {
+                        "nameOption": "1980 + 260 Oneiric Shard",
+                        "price": 384796
+                    }, {
+                        "nameOption": "3280 + 600 Oneiric Shard",
+                        "price": 592166
+                    }, {
+                        "nameOption": "6480 + 1600 Oneiric Shard",
+                        "price": 1184584
+                    }
+                ]
+            }
+        ]
+    }, {
+        "name": "Honkai Impact 3",
+        "picture": "genshin-impact.jpg",
+        "pictureBanner": "banner-mobile-legends.jpg",
+        "topupSystem": [
+            "UID"
+        ],
+        "topupDesc": "Untuk menemukan User ID Anda, buka aplikasi Honkai Impact 3, klik pada informasi level yang terletak di kiri atas layar, temukan User ID Anda disana. Silakan masukan User ID Anda disini.",
+        "guide": [
+            "Masukkan UID Honkai Impact 3 Anda.",
+            "Pilih paket yang Anda inginkan.",
+            "Klik tombol beli dan Anda akan diarahkan ke Whatsapp.",
+            "Selanjutnya Anda akan menyelesaikan transaksinya melalui admin Whatsapp."
+        ],
+        "packages": [
+            {
+                "type": "Items",
+                "options": [
+                    {
+                        "nameOption": "Monthly-Card",
+                        "price":  77653 
+                    }
+                ]
+            }, {
+                "type": "Crystals",
+                "options": [
+                    {
+                        "nameOption": "65 Crystals",
+                        "price": "15253"
+                    },
+                    {
+                        "nameOption": "330 Crystals",
+                        "price": "77653"
+                    },
+                    {
+                        "nameOption": "710 Crystals",
+                        "price": "153825"
+                    },
+                    {
+                        "nameOption": "1430 Crystals",
+                        "price": "304903"
+                    },
+                    {
+                        "nameOption": "3860 Crystals",
+                        "price": "761729"
+                    },
+                    {
+                        "nameOption": "8088 Crystals",
+                        "price": "1609477"
+                    }
+                ]
+            }, {
+                "type": "B-Chips",
+                "options": [
+                    {
+                        "nameOption": "65 B-Chips",
+                        "price": "15253"
+                    },
+                    {
+                        "nameOption": "330 B-Chips",
+                        "price": "77653"
+                    },
+                    {
+                        "nameOption": "990 B-Chips",
+                        "price": "227991"
+                    },
+                    {
+                        "nameOption": "1320 B-Chips",
+                        "price": "304903"
+                    },
+                    {
+                        "nameOption": "1980 B-Chips",
+                        "price": "456523"
+                    },
+                    {
+                        "nameOption": "3300 B-Chips",
+                        "price": "765427"
+                    },
+                    {
+                        "nameOption": "6600 B-Chips",
+                        "price": "1648732"
+                    }
+                ]
+            }
+        ]
+    }, {
+        "name": "PUBG M Indonesia",
+        "picture": "genshin-impact.jpg",
+        "pictureBanner": "banner-mobile-legends.jpg",
+        "topupSystem": [
+            "User ID"
+        ],
+        "topupDesc": "Untuk menemukan ID Anda, klik pada icon avatar anda di sudut kiri atas. ID Pemain PUBG M dan Nama Karakter Anda akan ditampilkan. Contoh: '5363266446'.",
+        "guide": [
+            "Masukkan User ID PUBG M Indonesia Anda.",
+            "Pilih paket yang Anda inginkan.",
+            "Klik tombol beli dan Anda akan diarahkan ke Whatsapp.",
+            "Selanjutnya Anda akan menyelesaikan transaksinya melalui admin Whatsapp."
+        ],
+        "packages": [
+            {
+                "type": "UC (Proses 1-10 menit)",
+                "options": [
+                    {
+                        "nameOption": "30 UC",
+                        "price": "6535"
+                    },
+                    {
+                        "nameOption": "60 UC",
+                        "price": "13052"
+                    },
+                    {
+                        "nameOption": "325 UC",
+                        "price": "65338"
+                    },
+                    {
+                        "nameOption": "660 UC",
+                        "price": "129451"
+                    },
+                    {
+                        "nameOption": "1800 UC",
+                        "price": "320717"
+                    },
+                    {
+                        "nameOption": "3850 UC",
+                        "price": "635351"
+                    },
+                    {
+                        "nameOption": "8100 UC",
+                        "price": "1270579"
+                    }
+                ]
+            }, {
+                "type": "UC Promo (Proses 30 menit - 2 jam)",
+                "options": [
+                    {
+                        "nameOption": "30 UC PROMO",
+                        "price": "6435"
+                    },
+                    {
+                        "nameOption": "60 UC PROMO",
+                        "price": "12934"
+                    },
+                    {
+                        "nameOption": "210 UC PROMO",
+                        "price": "45238"
+                    },
+                    {
+                        "nameOption": "300 + 25 UC PROMO",
+                        "price": "64601"
+                    },
+                    {
+                        "nameOption": "360 + 25 UC PROMO",
+                        "price": "77535"
+                    },
+                    {
+                        "nameOption": "480 + 25 UC PROMO",
+                        "price": "103405"
+                    },
+                    {
+                        "nameOption": "600 + 60 UC PROMO",
+                        "price": "127975"
+                    },
+                    {
+                        "nameOption": "660 + 60 UC PROMO",
+                        "price": "140791"
+                    },
+                    {
+                        "nameOption": "750 + 60 UC PROMO",
+                        "price": "159980"
+                    },
+                    {
+                        "nameOption": "900 + 75 UC PROMO",
+                        "price": "191979"
+                    },
+                    {
+                        "nameOption": "1500 + 300 UC PROMO",
+                        "price": "319986"
+                    },
+                    {
+                        "nameOption": "1800 + 325 UC PROMO",
+                        "price": "380400"
+                    },
+                    {
+                        "nameOption": "3000 + 850 UC PROMO",
+                        "price": "627977"
+                    },
+                    {
+                        "nameOption": "6000 + 2100 UC PROMO",
+                        "price": "1255953"
+                    }
+                ]
+            }
+        ]
+    }, {
+        "name": "LOL: Wild Rift",
+        "picture": "genshin-impact.jpg",
+        "pictureBanner": "banner-mobile-legends.jpg",
+        "topupSystem": [
+            "Riot ID"
+        ],
+        "topupDesc": "Untuk menemukan Riot ID Anda, buka halaman profil akun dan salin Riot ID+Tag menggunakan tombol yang tersedia disamping Riot ID. (Contoh: Westbourne#SEA).",
+        "guide": [
+            "Masukkan                                                                          Riot ID Anda.",
+            "Pilih paket yang Anda inginkan.",
+            "Klik tombol beli dan Anda akan diarahkan ke Whatsapp.",
+            "Selanjutnya Anda akan menyelesaikan transaksinya melalui admin Whatsapp."
+        ],
+        "packages": [
+            {
+                "type": "Wild Cores",
+                "options": [
+                    {
+                        "nameOption": "105 Wild Cores",
+                        "price": "14678"
+                    },
+                    {
+                        "nameOption": "350 Wild Cores",
+                        "price": "48925"
+                    },
+                    {
+                        "nameOption": "535 Wild Cores",
+                        "price": "72773"
+                    },
+                    {
+                        "nameOption": "585 Wild Cores",
+                        "price": "78279"
+                    },
+                    {
+                        "nameOption": "1100 Wild Cores",
+                        "price": "144854"
+                    },
+                    {
+                        "nameOption": "1135 Wild Cores",
+                        "price": "146072"
+                    },
+                    {
+                        "nameOption": "1660 Wild Cores",
+                        "price": "204501"
+                    },
+                    {
+                        "nameOption": "1725 Wild Cores",
+                        "price": "217281"
+                    },
+                    {
+                        "nameOption": "3000 Wild Cores",
+                        "price": "360401"
+                    },
+                    {
+                        "nameOption": "3010 Wild Cores",
+                        "price": "348894"
+                    },
+                    {
+                        "nameOption": "6210 Wild Cores",
+                        "price": "726862"
+                    }
+                ]
+            }
+        ]
+    }, {
+        "name": "Arena of Valor",
+        "picture": "genshin-impact.jpg",
+        "pictureBanner": "banner-mobile-legends.jpg",
+        "topupSystem": [
+            "Player ID"
+        ],
+        "topupDesc": "Untuk menemukan User ID Anda, Ketuk ikon pengaturan, scroll ke bawah, temukan bagian 'Umum', lalu Klik 'Player ID'. Contoh: '888347346994333'.",
+        "guide": [
+            "Masukkan Player ID Anda.",
+            "Pilih paket yang Anda inginkan.",
+            "Klik tombol beli dan Anda akan diarahkan ke Whatsapp.",
+            "Selanjutnya Anda akan menyelesaikan transaksinya melalui admin Whatsapp."
+        ],
+        "packages": [
+            {
+                "type": "Voucher",
+                "options": [
+                    {
+                        "nameOption": "40 Voucher",
+                        "price": "9907"
+                    },
+                    {
+                        "nameOption": "90 Voucher",
+                        "price": "19813"
+                    },
+                    {
+                        "nameOption": "230 Voucher",
+                        "price": "49532"
+                    },
+                    {
+                        "nameOption": "470 Voucher",
+                        "price": "99066"
+                    },
+                    {
+                        "nameOption": "950 Voucher",
+                        "price": "197222"
+                    },
+                    {
+                        "nameOption": "1430 Voucher",
+                        "price": "295832"
+                    },
+                    {
+                        "nameOption": "2390 Voucher",
+                        "price": "488509"
+                    },
+                    {
+                        "nameOption": "4800 Voucher",
+                        "price": "967930"
+                    },
+                    {
+                        "nameOption": "24050 Voucher",
+                        "price": "4794203"
                     }
                 ]
             }
