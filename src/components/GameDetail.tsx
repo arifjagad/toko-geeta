@@ -141,16 +141,17 @@ const GameDetail: React.FC<Props> = ({ games }) => {
                                     <p className="text-xs mt-4 text-white text-justify">
                                         {game.topupDesc}
                                     </p>
-                                    <div className="sm:block min-[425px]:hidden">
-                                        <Button type="submit" className="bg-green-500 mt-4 w-full hover:bg-red-200">
-                                            Pesan Sekarang <FaWhatsapp className="ml-2 h-5 w-5"/> 
-                                        </Button>
-                                    </div>
-                                    <div className="fixed bottom-0 left-0 z-50 w-full sm:hidden">
+                                    <div className="fixed sm:bottom-0 left-0 z-50 w-full sm:hidden">
                                         <Button type="submit" className="bg-green-500 mt-4 w-full hover:bg-red-200 rounded-t-lg rounded-b-none">
                                             Pesan Sekarang <FaWhatsapp className="ml-2 h-5 w-5"/> 
                                         </Button>
                                     </div>
+                                    <div className="">
+                                        <Button type="submit" className="bg-green-500 mt-4 w-full hover:bg-red-200">
+                                            Pesan Sekarang <FaWhatsapp className="ml-2 h-5 w-5"/> 
+                                        </Button>
+                                    </div>
+                                    
                                 </form>
                             </div>
                         </div>
@@ -163,9 +164,9 @@ const GameDetail: React.FC<Props> = ({ games }) => {
                                 {game.packages.map((packageType) => (
                                     <div key={packageType.type}>
                                         <h2 className="text-white font-bold">{packageType.type}</h2>
-                                        <div className="grid xl:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-4 text-white mb-6">
+                                        <div className="grid md:grid-cols-3 grid-cols-2 gap-4 text-white my-3">
                                             {packageType.options.map((option) => (
-                                                <div key={option.id} className="my-2">
+                                                <div key={option.id} className="">
                                                     <input
                                                         type="radio"
                                                         className="hidden peer"
@@ -178,8 +179,19 @@ const GameDetail: React.FC<Props> = ({ games }) => {
                                                         htmlFor={option.nameOption}
                                                         className="h-full p-4 text-gray-500 cursor-pointer block bg-white border border-gray-200 rounded-lg overflow-hidden transition duration-300 ease-in-out shadow-md hover:shadow-lg peer-checked:bg-sky-500 peer-checked:text-white peer-checked:font-medium"
                                                     >
-                                                        <p className="text-xs">{option.nameOption}</p>
-                                                        <p className="text-xs">{FormatRupiah({ value: option.price })}</p>
+                                                        <div className="flex sm:justify-between sm:flex-row flex-col-reverse">
+                                                            <div className="w-4/5">
+                                                                <p className="text-xs mb-4">{option.nameOption}</p>
+                                                                <p className="text-xs font-medium">{FormatRupiah({ value: option.price })}</p>
+                                                            </div>
+                                                            <div className="sm:mb-0 mb-4 w-1/5 flex justify-end">
+                                                                <img                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                                                                src={`/images/${packageType.iconCurrency}`}
+                                                                className="h-5 w-auto drop-shadow-xl"
+                                                                alt=""/>
+                                                            </div>
+                                                        </div>
+                                                        
                                                     </label>
                                                 </div>
                                             ))}
