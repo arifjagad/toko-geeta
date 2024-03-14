@@ -180,11 +180,11 @@ const GameDetail: React.FC<Props> = ({ games }) => {
                                                         className="h-full p-4 text-gray-500 cursor-pointer block bg-white border border-gray-200 rounded-lg overflow-hidden transition duration-300 ease-in-out shadow-md hover:shadow-lg peer-checked:bg-sky-500 peer-checked:text-white peer-checked:font-medium"
                                                     >
                                                         <div className="flex sm:justify-between sm:flex-row flex-col-reverse">
-                                                            <div className="w-4/5">
+                                                            <div className="sm:w-4/5">
                                                                 <p className="text-xs mb-4">{option.nameOption}</p>
                                                                 <p className="text-xs font-medium">{FormatRupiah({ value: option.price })}</p>
                                                             </div>
-                                                            <div className="sm:mb-0 mb-4 w-1/5 flex justify-end">
+                                                            <div className="sm:mb-0 mb-4 sm:w-1/5 flex sm:justify-end justify-start">
                                                                 <img                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
                                                                 src={`/images/${packageType.iconCurrency}`}
                                                                 className="h-5 w-auto drop-shadow-xl"
