@@ -2,7 +2,7 @@
     {
         "name": "Mobile Legends",
         "picture": "mobile-legends.jpg",
-        "pictureBanner": "banner-mobile-legends-3.jpg",
+        "pictureBanner": "banner-mobile-legends.jpg",
         "topupSystem": [
             "User ID",
             "Zone ID"
@@ -374,7 +374,7 @@
     }, {
         "name": "Free Fire",
         "picture": "free-fire.jpg",
-        "pictureBanner": "banner-mobile-legends.jpg",
+        "pictureBanner": "banner-free-fire.jpg",
         "topupSystem": [
             "Player ID"
         ],
@@ -388,6 +388,7 @@
         "packages": [
             {
                 "type": "Items",
+                "iconCurrency": "icon-currency-items.svg",
                 "options": [
                     {
                         "nameOption": "Member Mingguan",
@@ -399,6 +400,7 @@
                 ]
             }, {
                 "type": "Diamonds",
+                "iconCurrency": "icon-currency-mobile-legends.png",
                 "options": [
                     {
                         "nameOption": "5 Diamonds",
@@ -434,7 +436,7 @@
     }, {
         "name": "Genshin Impact",
         "picture": "genshin-impact.jpg",
-        "pictureBanner": "banner-mobile-legends.jpg",
+        "pictureBanner": "banner-genshin-impact.jpg",
         "topupSystem": [
             "UID",
             "Server"
@@ -449,6 +451,7 @@
         "packages": [
             {
                 "type": "Items",
+                "iconCurrency": "icon-currency-genshin-impact-item.png",
                 "options": [
                     {
                         "nameOption": "Express Supply Pass (x1)",
@@ -469,6 +472,7 @@
                 ]
             }, {
                 "type": "Genesis Crystals",
+                "iconCurrency": "icon-currency-genshin-impact.png",
                 "options": [
                     {
                         "nameOption": "60 Genesis Crystals",
@@ -494,8 +498,8 @@
         ]
     }, {
         "name": "Valorant",
-        "picture": "genshin-impact.jpg",
-        "pictureBanner": "banner-mobile-legends.jpg",
+        "picture": "valorant.jpg",
+        "pictureBanner": "banner-valorant.jpg",
         "topupSystem": [
             "Riot ID"
         ],
@@ -509,6 +513,7 @@
         "packages": [
             {
                 "type": "Valorant Points",
+                "iconCurrency": "icon-currency-valorant-points.png",
                 "options": [
                     {
                         "nameOption": "125 VP",
@@ -615,8 +620,8 @@
         ]
     }, {
         "name": "Honkai Star Rail",
-        "picture": "genshin-impact.jpg",
-        "pictureBanner": "banner-mobile-legends.jpg",
+        "picture": "honkai-star-rail.jpg",
+        "pictureBanner": "banner-honkai-star-rail.jpg",
         "topupSystem": [
             "UID",
             "Server"
@@ -631,6 +636,7 @@
         "packages": [
             {
                 "type": "Items",
+                "iconCurrency": "icon-currency-honkai-star-rail-items.png",
                 "options": [
                     {
                         "nameOption": "Express Supply Pass (x1)",
@@ -651,6 +657,7 @@
                 ]
             }, {
                 "type": "Oneiric Shard",
+                "iconCurrency": "icon-currency-honkai-star-rail.png",
                 "options": [
                     {
                         "nameOption": "60 Oneiric Shard",
@@ -676,8 +683,8 @@
         ]
     }, {
         "name": "Honkai Impact 3",
-        "picture": "genshin-impact.jpg",
-        "pictureBanner": "banner-mobile-legends.jpg",
+        "picture": "honkai-impact-3.jpg",
+        "pictureBanner": "banner-honkai-impact-3.jpg",
         "topupSystem": [
             "UID"
         ],
@@ -691,6 +698,7 @@
         "packages": [
             {
                 "type": "Items",
+                "iconCurrency": "icon-currency-items.svg",
                 "options": [
                     {
                         "nameOption": "Monthly-Card",
@@ -699,6 +707,7 @@
                 ]
             }, {
                 "type": "Crystals",
+                "iconCurrency": "icon-currency-crystal-honkai-impact-3.png",
                 "options": [
                     {
                         "nameOption": "65 Crystals",
@@ -727,6 +736,7 @@
                 ]
             }, {
                 "type": "B-Chips",
+                "iconCurrency": "icon-currency-b-chips-honkai-impact-3.png",
                 "options": [
                     {
                         "nameOption": "65 B-Chips",
@@ -761,8 +771,8 @@
         ]
     }, {
         "name": "PUBG M Indonesia",
-        "picture": "genshin-impact.jpg",
-        "pictureBanner": "banner-mobile-legends.jpg",
+        "picture": "pubg-m-indonesia.jpg",
+        "pictureBanner": "banner-pubg-m-indonesia.jpg",
         "topupSystem": [
             "User ID"
         ],
@@ -776,6 +786,7 @@
         "packages": [
             {
                 "type": "UC (Proses 1-10 menit)",
+                "iconCurrency": "icon-currency-pubg-m-indonesia.png",
                 "options": [
                     {
                         "nameOption": "30 UC",
@@ -808,6 +819,7 @@
                 ]
             }, {
                 "type": "UC Promo (Proses 30 menit - 2 jam)",
+                "iconCurrency": "icon-currency-pubg-m-indonesia.png",
                 "options": [
                     {
                         "nameOption": "30 UC PROMO",
@@ -870,8 +882,8 @@
         ]
     }, {
         "name": "LOL: Wild Rift",
-        "picture": "genshin-impact.jpg",
-        "pictureBanner": "banner-mobile-legends.jpg",
+        "picture": "lol-wild-rift.jpg",
+        "pictureBanner": "banner-lol-wild-rift.jpg",
         "topupSystem": [
             "Riot ID"
         ],
@@ -885,6 +897,7 @@
         "packages": [
             {
                 "type": "Wild Cores",
+                "iconCurrency": "icon-currency-lol-wild-rift.png",
                 "options": [
                     {
                         "nameOption": "105 Wild Cores",
@@ -935,8 +948,8 @@
         ]
     }, {
         "name": "Arena of Valor",
-        "picture": "genshin-impact.jpg",
-        "pictureBanner": "banner-mobile-legends.jpg",
+        "picture": "arena-of-valor.jpg",
+        "pictureBanner": "banner-arena-of-valor.jpg",
         "topupSystem": [
             "Player ID"
         ],
@@ -950,6 +963,7 @@
         "packages": [
             {
                 "type": "Voucher",
+                "iconCurrency": "icon-currency-arena-of-valor.png",
                 "options": [
                     {
                         "nameOption": "40 Voucher",
