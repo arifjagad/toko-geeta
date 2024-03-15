@@ -109,7 +109,7 @@ const GameDetail: React.FC<Props> = ({ games }) => {
                 <div className="grid grid-cols-7 sm:gap-8 gap-4 h-full">
                     <div className="lg:col-span-2 col-span-7">
                         <div className="sticky top-28">
-                            <div className="bg-blue-700 sm:px-12 sm:py-8 px-10 py-6 text-white rounded-lg">
+                            <div className="bg-steelBlue sm:px-12 sm:py-8 px-10 py-6 text-white rounded-lg">
                                 <h4 className="text-xl font-bold mb-4">Panduan Topup!</h4>
                                 <ol className="list-decimal">
                                     {game.guide.map((guideList) => (
@@ -121,10 +121,10 @@ const GameDetail: React.FC<Props> = ({ games }) => {
                     </div>
                     <div className="lg:col-span-5 col-span-7">
                         <div className="">
-                            <div className="bg-blue-700 sm:px-12 px-10 py-4 text-white font-bold rounded-t-lg">
+                            <div className="bg-steelBlue sm:px-12 px-10 py-4 text-white font-bold rounded-t-lg">
                                 Masukkan User ID
                             </div>
-                            <div className="bg-blue-950 sm:px-12 px-10 py-8 rounded-b-lg">
+                            <div className="bg-midnightBlue sm:px-12 px-10 py-8 rounded-b-lg">
                                 <form onSubmit={handleSubmit}>
                                     <div className="flex md:flex-row flex-col gap-4">
                                         {game.topupSystem.map((topupSystemList) => (
@@ -156,10 +156,10 @@ const GameDetail: React.FC<Props> = ({ games }) => {
                             </div>
                         </div>
                         <div className="sm:mt-6 mt-4">
-                            <div className="bg-blue-700 text-white font-bold rounded-t-lg sm:px-12 px-10 py-4">
+                            <div className="bg-steelBlue text-white font-bold rounded-t-lg sm:px-12 px-10 py-4">
                                 Pilih Paket Anda
                             </div>
-                            <div className="bg-blue-950 sm:px-12 px-10 py-8 rounded-b-lg">
+                            <div className="bg-midnightBlue sm:px-12 px-10 py-8 rounded-b-lg">
                                 {/* Price List */}
                                 {game.packages.map((packageType) => (
                                     <div key={packageType.type}>
@@ -177,21 +177,20 @@ const GameDetail: React.FC<Props> = ({ games }) => {
                                                     />
                                                     <label
                                                         htmlFor={option.nameOption}
-                                                        className="h-full p-4 text-gray-500 cursor-pointer block bg-white border border-gray-200 rounded-lg overflow-hidden transition duration-300 ease-in-out shadow-md hover:shadow-lg peer-checked:bg-sky-500 peer-checked:text-white peer-checked:font-medium"
+                                                        className="h-full p-4 text-gray-500 cursor-pointer block bg-white border border-gray-200 rounded-lg overflow-hidden transition duration-300 ease-in-out shadow-md hover:shadow-lg peer-checked:bg-pearlWhite peer-checked:text-black peer-checked:font-medium peer-checked:outline peer-checked:outline-offset-4 peer-checked:outline-lemonChiffon"
                                                     >
                                                         <div className="flex sm:justify-between sm:flex-row flex-col-reverse">
-                                                            <div className="w-4/5">
+                                                            <div className="sm:w-4/5">
                                                                 <p className="text-xs mb-4">{option.nameOption}</p>
                                                                 <p className="text-xs font-medium">{FormatRupiah({ value: option.price })}</p>
                                                             </div>
-                                                            <div className="sm:mb-0 mb-4 w-1/5 flex justify-end">
+                                                            <div className="sm:mb-0 mb-4 sm:w-1/5 flex sm:justify-end justify-start">
                                                                 <img                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
                                                                 src={`/images/${packageType.iconCurrency}`}
                                                                 className="h-5 w-auto drop-shadow-xl"
                                                                 alt=""/>
                                                             </div>
                                                         </div>
-                                                        
                                                     </label>
                                                 </div>
                                             ))}

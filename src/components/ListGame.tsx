@@ -13,7 +13,7 @@ const ListGame: React.FC<Props> = ({ games }) => {
 
     return (
         <div className="sm:my-8 my-4">
-            <div className="grid lg:grid-cols-4 sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
+            <div className="grid 2xl:grid-cols-5 lg:grid-cols-4 sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
                 {games.map((game) => (
                     <>
                         <Link to={`/topup/${game.name.split(` `).join(`-`).toLowerCase()}`}
@@ -21,11 +21,11 @@ const ListGame: React.FC<Props> = ({ games }) => {
                             <div
                                 className="da relative flex flex-col justify-center overflow-hidden bg-gray-50"
                                 >
-                                <div className="absolute inset-0 bg-center dark:bg-black"></div>
+                                <div className="absolute inset-0 bg-center"></div>
                                 <div
                                     className="group relative m-0 flex h-72 w-full rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
                                     <div
-                                        className="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
+                                        className="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100">
                                         <img
                                             src={`/images/${game.picture}`}
                                             className="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110"
