@@ -86,11 +86,12 @@ const GameDetail: React.FC<Props> = ({ games }) => {
     return (
         <>
             <ToastContainer />
-
+            
             <div
-                className='bg-cover bg-center h-64 w-full brightness-50'
+                className='bg-cover bg-center h-64 w-full'
                 style={{ backgroundImage: `url('/images/${game.pictureBanner}')` }}
-            ></div>
+            >
+            </div>
 
             <div className="h-40 xl:mx-36 sm:mx-8 mx-6 -mt-28 flex items-center">
                 <div
@@ -187,7 +188,7 @@ const GameDetail: React.FC<Props> = ({ games }) => {
                                                             <div className="sm:mb-0 mb-4 sm:w-1/5 flex sm:justify-end justify-start">
                                                                 <img                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
                                                                 src={`/images/${packageType.iconCurrency}`}
-                                                                className="h-5 w-auto drop-shadow-xl"
+                                                                className="h-6 w-auto drop-shadow-xl"
                                                                 alt=""/>
                                                             </div>
                                                         </div>
