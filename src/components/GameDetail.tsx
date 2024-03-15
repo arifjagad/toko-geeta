@@ -142,17 +142,16 @@ const GameDetail: React.FC<Props> = ({ games }) => {
                                     <p className="text-xs mt-4 text-white text-justify">
                                         {game.topupDesc}
                                     </p>
-                                    <div className="fixed sm:bottom-0 left-0 z-50 w-full sm:hidden">
-                                        <Button type="submit" className="bg-green-500 mt-4 w-full hover:bg-red-200 rounded-t-lg rounded-b-none">
+                                    <div className="fixed bottom-0 left-0 z-50 w-full sm:hidden">
+                                        <Button type="submit" className="bg-green-500 mt-4 py-1 w-full hover:bg-red-200 rounded-t-lg rounded-b-none">
                                             Pesan Sekarang <FaWhatsapp className="ml-2 h-5 w-5"/> 
                                         </Button>
                                     </div>
-                                    <div className="">
+                                    <div className="sm:block min-[200px]:hidden">
                                         <Button type="submit" className="bg-green-500 mt-4 w-full hover:bg-red-200">
-                                            Pesan Sekarang <FaWhatsapp className="ml-2 h-5 w-5"/> 
+                                            Pesan Sekarang Atas <FaWhatsapp className="ml-2 h-5 w-5"/> 
                                         </Button>
                                     </div>
-                                    
                                 </form>
                             </div>
                         </div>
